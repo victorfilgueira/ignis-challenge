@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	height: 12rem;
+	background-color: #06AA48;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+	background-color: #CFD8D7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Poppins", "sans-serif";
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 3rem;
+	color: #FFFF;
+}
+
+.container {
+	margin-top:  10rem;
+}
+
+.labels {
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #06AA48;
+}
+
+textarea {
+	margin-top: 1rem;
+	border: none;
+	outline: none;
+	resize: none;
+	width: 45.2rem;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 0.3rem;
+	font-weight: 400;
+	font-size: 1rem;
+	font-family: "Poppins", "sans-serif";
+}
+
+::placeholder {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+textarea::-webkit-scrollbar {
+	width: 1rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+	background-color: #06AA48;
+	cursor: pointer;
+}
+
+.inserir_button {
+	width: 45rem;
+	height: 2rem;
+	text-align: center;
+	box-sizing: content-box;
+	background-color: #06AA48;
+	color: #FFFF;
+	border-radius: 0.3rem;
+	font-family: "Poppins", "sans-serif";
+	font-weight: 600;
+	font-size: 1rem;
+	cursor: pointer;
+	margin-top: 0.5rem;
+}
