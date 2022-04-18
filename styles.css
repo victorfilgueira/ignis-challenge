@@ -15,6 +15,18 @@
 	justify-content: center;
 }
 
+html {
+	@media (max-width: 1080px) {
+		font-size: 93.75%;
+	}
+}
+
+html {
+	@media (max-width: 720px) {
+		font-size: 87.5%;
+	}
+}
+
 body {
 	background-color: #CFD8D7;
 	display: flex;
@@ -82,4 +94,8 @@ textarea::-webkit-scrollbar-thumb {
 	font-size: 1rem;
 	cursor: pointer;
 	margin-top: 0.5rem;
+}
+
+.inserir_button:hover {
+	filter: brightness(0.9);
 }
